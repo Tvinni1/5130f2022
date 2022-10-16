@@ -1,0 +1,8 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 As you all know how hard it is to travel away from your HOME and move to a new place to pursue your dreams in your respective fields. I for one have faced numerous shortcomings to adjust to a new life in a new location away from my home where I was spoonfed everything. One of my very crucial shortcomings was arranging a new unfurnished house with a couple of roommates. The worst part was to buy each and every item firsthand or spend a couple of bucks to travel to another place to purchase a second-hand item, not noticing my seniors who were moving to a new city for their jobs after graduating, had a lot of items that cannot be taken with them and therefore had to throw all of them away. So we, at team UML THRIFTY, are here to create a seamless, user-friendly, responsive interface website/web application that offers only the students of the University of Massachusetts, Lowell a portal to upload their unused/unrequired items such as Furniture, Electronics, and automobiles for sale and can further check out the application to make contact with the owners of the uploaded items to buy from them.}
