@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vineesha</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js" type="text/javascript"></script>
+  </head>
+  <body>   
+    <section>
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <img src="Vineesha.jpeg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#facebook" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#instagram" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#linkedin" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+      </section>
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <div class="content-container w3-margin-top-2">
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Vineesha</p>
+              <p>Adress: Lowell MA</p>
+              <p>Phone number: +19999999999</p>
+              <p>E-mail: vineesha_thallapaneni@student.uml.edu</p>
+            </div>
+          </div>
+          
+            <div id="hobbies" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Hobbies</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+          <ul>
+            <li>Playing Chess</li>
+            <li>Shuffle dance</li>
+           <li>Reading books</li>
+          </ul>
+            </div>
+            <div id="hobbies" class="w3-container w3-margin-top-20-percent w3-cursive">
+                <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Portfolio</h3>
+                <div class="w3-margin-top-2" style="font-weight: 500;">
+
+                </div> 
+                <div id="container"></div>
+                
+                <script>
+             
+                    var pie = new ej.charts.AccumulationChart({
+                        //Initializing Series
+                        series: [
+                            {
+                                dataSource: [
+                                { 'x': 'none' },{ 'x': 'none' },
+                                    { 'x': 'FIXED DEPOSIT', y: 39 }, { 'x': 'LUXURY BAGS', y: 17 },{ 'x': 'none' },
+                                    { 'x': 'REAL ASSETS', y: 70 },{ 'x': 'none' },
+                                    { 'x': 'GOLD AND DIAMONDS', y: 20 }, { 'x': 'FIXED INCOME', y: 11 },
+                                    { 'x': 'CASH', y: 20}
+                                ],
+                                dataLabel: {
+                                    visible: true,
+                                    position: 'Outside',
+                                },
+                                xName: 'x',
+                                yName: 'y'
+                            }
+                        ],
+                    });
+                    pie.appendTo('#container');
+                </script>
+                <p>Net worth= $53,000</p>
+                </div> 
+                <div id="container2"></div>
+                
+                <script>
+             
+                    var pie = new ej.charts.AccumulationChart({
+                        //Initializing Series
+                        series: [
+                            {
+                                dataSource: [
+                                { 'x': 'none' },{ 'x': 'none' },
+                                    { 'x': 'FIXED DEPOSIT', y: 39 }, { 'x': 'LUXURY BAGS', y: 17 },{ 'x': 'none' },
+                                    { 'x': 'REAL ASSETS', y: 170 },{ 'x': 'none' },
+                                    { 'x': 'GOLD AND DIAMONDS', y: 20 }, { 'x': 'FIXED INCOME', y:51 },
+                                    { 'x': 'CASH', y: 20}
+                                ],
+                                dataLabel: {
+                                    visible: true,
+                                    position: 'Outside',
+                                },
+                                xName: 'x',
+                                yName: 'y'
+                            }
+                        ],
+                    });
+                    pie.appendTo('#container2');
+                </script>
+                <p>Net worth= $255,000</p>
+                </div>     
+                    <div id="hobbies" class="w3-container w3-margin-top-20-percent w3-cursive">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Enter your details</h3>
+                    <div class="w3-margin-top-2" style="font-weight: 500;">
+                    </div> <p>
+                        <a href="form.php">click here</a> to fill out the form
+                    </p>
+                 </div>    
+      </section>      
+    </section>
+  </body>
+</html>
